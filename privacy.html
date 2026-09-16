@@ -15,6 +15,7 @@
         ul { padding-left: 20px; }
         .footer { text-align: center; padding: 30px; color: #666; }
         .footer a { color: #1a237e; text-decoration: none; }
+        .highlight-box { background-color: #e8eaf6; padding: 15px; border-left: 4px solid #1a237e; border-radius: 4px; margin: 15px 0; }
     </style>
 </head>
 <body>
@@ -23,7 +24,7 @@
         <p>Yevmiye Defterim</p>
     </div>
     <div class="content">
-        <p><strong>Son güncelleme:</strong> 13 Temmuz 2026</p>
+        <p><strong>Son güncelleme:</strong> 16 Eylül 2026</p>
 
         <h2>1. Giriş</h2>
         <p>Yevmiye Defterim uygulaması ("Uygulama"), kişisel yevmiye puantaj takibi yapmanızı sağlayan bir mobil uygulamadır. Bu gizlilik politikası, uygulamayı kullandığınızda kişisel verilerinizin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.</p>
@@ -31,45 +32,48 @@
         <h2>2. Toplanan Veriler</h2>
         <p>Uygulamamız aşağıdaki verileri toplayabilir:</p>
         <ul>
-            <li><strong>Google Hesap Bilgileri:</strong> Google ile giriş yaptığınızda adınız ve e-posta adresiniz.</li>
+            <li><strong>Google Hesap Bilgileri:</strong> Google ile giriş yaptığınızda adınız, e-posta adresiniz ve temel profil bilgileriniz.</li>
             <li><strong>Uygulama Verileri:</strong> Uygulamada oluşturduğunuz yevmiye, mesai, avans ve hesap kesimi kayıtları.</li>
-            <li><strong>Yedekleme Verileri:</strong> Google Drive'a yedekleme yaptığınızda, yedekleme dosyaları Google Drive hesabınızda saklanır.</li>
+            <li><strong>Yedekleme Verileri:</strong> Google Drive'a yedekleme yaptığınızda, veritabanı yedekleriniz yalnızca sizin erişebileceğiniz şekilde Google Drive hesabınızda saklanır.</li>
         </ul>
 
         <h2>3. Verilerin Kullanımı</h2>
         <p>Topladığımız verileri şu amaçlarla kullanırız:</p>
         <ul>
             <li>Uygulamanın temel işlevlerini sağlamak</li>
-            <li>Verilerinizi Google Drive'a yedeklemek ve geri yüklemek</li>
-            <li>Kullanıcı deneyimini iyileştirmek</li>
+            <li>Verilerinizi Google Drive'a yedeklemek ve cihazlar arası geçişte geri yüklemek</li>
+            <li>Satın alınan (Pro) özellikleri hesabınızla eşleştirmek</li>
         </ul>
 
         <h2>4. Google API Kullanımı</h2>
-        <p>Yevmiye Defterim, Google API Hizmetleri Kullanıcı Verileri Politikası'na uygundur. Uygulama, Google API'lerinden aldığı verileri yalnızca uygulama içi işlevler için kullanır ve üçüncü taraflarla paylaşmaz.</p>
+        <p>Yevmiye Defterim, Google API Hizmetleri Kullanıcı Verileri Politikası'na uygundur. Uygulama, Google API'lerinden aldığı verileri yalnızca uygulama içi işlevler (giriş yapma ve yedekleme) için kullanır ve kesinlikle üçüncü taraflarla paylaşmaz.</p>
         <p>Uygulamamızın Google kullanıcı verilerini kullanımı ve aktarımı, <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API Hizmetleri Kullanıcı Verileri Politikası</a>'na (Sınırlı Kullanım gereksinimleri dahil) uygundur.</p>
 
         <h2>5. Veri Paylaşımı</h2>
         <p>Kişisel verilerinizi üçüncü taraflarla satmaz, kiralamaz veya paylaşmayız. Verileriniz yalnızca:</p>
         <ul>
-            <li>Sizin açık izninizle</li>
+            <li>Sizin açık izninizle (örneğin yedekleme yaparken)</li>
             <li>Yasal zorunluluklar gereği</li>
-            <li>Uygulamanın işlevselliği için gerekli olan Google hizmetleri aracılığıyla</li>
         </ul>
         <p>paylaşılabilir.</p>
 
         <h2>6. Veri Güvenliği</h2>
-        <p>Verilerinizin güvenliğini sağlamak için endüstri standartlarında güvenlik önlemleri kullanıyoruz. Tüm veri iletişimleri şifreli bağlantılar (HTTPS/SSL) üzerinden gerçekleştirilir.</p>
+        <p>Verilerinizin güvenliğini sağlamak için endüstri standartlarında güvenlik önlemleri kullanıyoruz. Tüm veri iletişimleri şifreli bağlantılar (HTTPS) üzerinden gerçekleştirilir ve yedekleriniz doğrudan sizin Google Drive'ınıza (App Data Folder) kapalı bir şekilde aktarılır.</p>
 
-        <h2>7. Veri Saklama ve Silme</h2>
-        <p>Uygulama verileriniz cihazınızda yerel olarak saklanır. Google Drive yedeklemeleri Google Drive hesabınızda saklanır. Uygulamayı kaldırdığınızda yerel veriler silinir. Google Drive'daki yedeklemeleri manuel olarak silebilirsiniz.</p>
+        <h2>7. Hesap ve Veri Silme (Account & Data Deletion)</h2>
+        <div class="highlight-box">
+            <p><strong>Hesabınızı Uygulama İçinden Silme:</strong><br>
+            Uygulama içerisindeki <strong>Ayarlar > Genel Ayarlar > Hesap Yönetimi > "Hesabımı Sil"</strong> butonuna tıklayarak hesabınızı ve sistemimizdeki bağlantılarınızı anında, kalıcı olarak silebilirsiniz.</p>
+        </div>
+        <p>Uygulamayı sildiğinizde telefonunuzdaki yerel veriler otomatik silinir. Google Hesabınızdaki verileri ise Google hesap ayarlarınızdan (Üçüncü taraf erişimleri) uygulamamızın erişimini kaldırarak silebilirsiniz.</p>
+        <p>Eğer uygulamaya erişiminiz yoksa ve hesabınızın silinmesini talep ediyorsanız, kayıtlı e-posta adresiniz üzerinden <strong>bilalnisanci@gmail.com</strong> adresine "Hesap Silme Talebi" başlıklı bir e-posta gönderebilirsiniz. Talebiniz 72 saat içerisinde işleme alınacaktır.</p>
 
         <h2>8. Kullanıcı Hakları</h2>
         <p>Kullanıcı olarak aşağıdaki haklara sahipsiniz:</p>
         <ul>
             <li>Verilerinize erişim talep etme</li>
-            <li>Verilerinizin düzeltilmesini isteme</li>
-            <li>Verilerinizin silinmesini talep etme</li>
-            <li>Veri işlemeye itiraz etme</li>
+            <li>Verilerinizin silinmesini talep etme (uygulama içinden veya e-posta ile)</li>
+            <li>Bulut yedeklemesini dilediğiniz zaman durdurma</li>
         </ul>
 
         <h2>9. Çocukların Gizliliği</h2>
@@ -79,7 +83,7 @@
         <p>Bu gizlilik politikasını zaman zaman güncelleyebiliriz. Değişiklikler bu sayfada yayınlanacaktır.</p>
 
         <h2>11. İletişim</h2>
-        <p>Gizlilik politikamız hakkında sorularınız varsa, lütfen bizimle iletişime geçin:</p>
+        <p>Gizlilik politikamız veya hesap silme işlemleri hakkında sorularınız varsa, lütfen bizimle iletişime geçin:</p>
         <p>📧 E-posta: <a href="mailto:bilalnisanci@gmail.com">bilalnisanci@gmail.com</a></p>
     </div>
     <div class="footer">
@@ -88,3 +92,4 @@
     </div>
 </body>
 </html>
+
